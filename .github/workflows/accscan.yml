@@ -1,0 +1,17 @@
+name: AccScan
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  get-version:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: bin/accscan
+      run: bin/accscan --version    
+    - name: src/accscan.php
+      run: bin/accscan --version
