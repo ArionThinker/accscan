@@ -1,0 +1,7 @@
+#!/bin/bash
+# Get command line flags
+FLAGS="$@"
+
+# Run PHP file passing flags as arguments
+CURRENT_PATH="$(dirname "$(readlink -f "$0")")"
+php $CURRENT_PATH/../src/accscan.php $FLAGS
