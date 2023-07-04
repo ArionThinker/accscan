@@ -14,4 +14,12 @@ jobs:
     - name: bin/accscan
       run: bin/accscan --version    
     - name: src/accscan.php
-      run: bin/accscan --version
+      run: php src/accscan.php --version
+  search-foo:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: bin/accscan
+      run: bin/accscan --search foo    
+    - name: src/accscan.php
+      run: php src/accscan.php --search foo
