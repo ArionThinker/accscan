@@ -35,6 +35,8 @@ class Main {
                     }
                     $this->console->output("\n");
                     exit;
+                } else {
+                    $this->console->output("Usage: <path>/<to>/accscan --search <username>\n");
                 }
             }
         }
