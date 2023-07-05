@@ -19,13 +19,13 @@ To run AccScan, follow these steps:
 2. Run the utility, specifying the username and any required flags:
 
    ```bash
-   php accscan.php --search <username>
+   accscan --search <username>
    ```
 
    For example:
 
    ```bash
-   php accscan.php --search john_doe
+   accscan --search john_doe
    ```
 
    The utility will search for the specified username across different resources and display the results in the terminal.
