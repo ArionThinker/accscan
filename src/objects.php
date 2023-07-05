@@ -21,7 +21,8 @@ class Text {
 
 class Console {
     public function output($string) {
-        print("$string\n");
+        $output = is_array($string) ? print_r($string, true) : $string;
+        print("$output\n");
     }
 }
 
