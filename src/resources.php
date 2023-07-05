@@ -10,5 +10,6 @@ $resources['Tumblr']       = 'https://www.tumblr.com/{{username}}';
 $resources['Boostlog']     = 'https://boostlog.io/_{{username}}/';
 $resources['Ask.fm']       = 'https://ask.fm/{{username}}';
 $resources['Main']         = 'https://main.community/u/{{username}}';
+$resources['ProductHunt']  = 'https://www.producthunt.com/@{{username}}';
 
 define('RESOURCES', $resources);
