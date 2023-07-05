@@ -14,5 +14,6 @@ $resources['ProductHunt']  = 'https://www.producthunt.com/@{{username}}';
 $resources['Pikabu']       = 'https://pikabu.ru/@{{username}}';
 $resources['Behance']      = 'https://www.behance.net/{{username}}';
 $resources['Wattpad']      = 'https://www.wattpad.com/user/{{username}}';
+$resources['TikTok']       = 'https://www.tiktok.com/@{{username}}';
 
 define('RESOURCES', $resources);
