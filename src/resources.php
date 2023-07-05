@@ -11,5 +11,10 @@ $resources['Boostlog']     = 'https://boostlog.io/_{{username}}/';
 $resources['Ask.fm']       = 'https://ask.fm/{{username}}';
 $resources['Main']         = 'https://main.community/u/{{username}}';
 $resources['ProductHunt']  = 'https://www.producthunt.com/@{{username}}';
+$resources['Pikabu']       = 'https://pikabu.ru/@{{username}}';
+$resources['Behance']      = 'https://www.behance.net/{{username}}';
+$resources['Wattpad']      = 'https://www.wattpad.com/user/{{username}}';
+$resources['TikTok']       = 'https://www.tiktok.com/@{{username}}';
+$resources['Snapchat']     = 'https://www.snapchat.com/add/{{username}}';
 
 define('RESOURCES', $resources);
