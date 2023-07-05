@@ -11,5 +11,6 @@ $resources['Boostlog']     = 'https://boostlog.io/_{{username}}/';
 $resources['Ask.fm']       = 'https://ask.fm/{{username}}';
 $resources['Main']         = 'https://main.community/u/{{username}}';
 $resources['ProductHunt']  = 'https://www.producthunt.com/@{{username}}';
+$resources['Notion']       = 'https://www.notion.so/{{username}}';
 
 define('RESOURCES', $resources);
