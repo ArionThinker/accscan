@@ -12,5 +12,6 @@ $resources['Ask.fm']       = 'https://ask.fm/{{username}}';
 $resources['Main']         = 'https://main.community/u/{{username}}';
 $resources['ProductHunt']  = 'https://www.producthunt.com/@{{username}}';
 $resources['Pikabu']       = 'https://pikabu.ru/@{{username}}';
+$resources['Behance']      = 'https://www.behance.net/{{username}}';
 
 define('RESOURCES', $resources);
