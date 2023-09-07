@@ -19,6 +19,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: bin/accscan
-      run: bin/accscan --search foo    
-    - name: src/accscan.php
-      run: php src/accscan.php --search foo
+      run: bin/accscan --search foo
