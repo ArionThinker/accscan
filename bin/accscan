@@ -85,7 +85,7 @@ class Main {
     private function run($name, $url) {
         $result = $this->web->check($url);
 
-        if ($result <> 'none') {
+        if ($result <> 'none' && $result <> 'error') {
             $prefix = $this->text->color('✓', 'green');
             $output = $this->text->color($result, 'blue');
         } else {

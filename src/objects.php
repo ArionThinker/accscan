@@ -35,9 +35,9 @@ class Web {
         $response = curl_exec($ch);
         
         if ($response === false) {
-            echo "Request execution error: " . curl_error($ch) . "\n";
+            echo curl_error($ch) . "\n";
             curl_close($ch);
-            exit();
+            return 'error';
         }
         
         $info = curl_getinfo($ch);
